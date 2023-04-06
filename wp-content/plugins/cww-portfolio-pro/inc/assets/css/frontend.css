@@ -1,0 +1,243 @@
+/*===== Sticky Header =====*/
+.logo-dark{
+    display:none;
+}
+header.site-header.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+body.admin-bar header.site-header.fixed {
+    margin-top: 30px;
+}
+
+/*=========== Scroll To Top ===========*/
+.scroll-to-top {
+    visiblity: hidden;
+    opacity: 0;
+    position: fixed;
+    bottom: 74px;
+    right: 0;
+    background: #fff;
+    padding: 10px 19px;
+    vertical-align: middle;
+    -webkit-box-shadow: 1px 0px 20px 0px rgb(0 0 0 / 30%);
+            box-shadow: 1px 0px 20px 0px rgb(0 0 0 / 30%);
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+}
+.scroll-to-top:hover{
+    cursor: pointer;
+    background-color: var(--theme-color);
+    
+}
+.scroll-to-top:hover i{
+    color: #fff;
+}
+.scroll-to-top.active{
+    display: inline-block;
+    visiblity: visible;
+    opacity: 1;
+     bottom: 74px;
+    right: 15px;
+}
+
+/* ============ Progress Bar ============== */
+.cww-skill-section {
+    background-color: rgba(249, 86, 79, 0.06);
+    padding: 100px 0;
+}
+.cww-skill-section .right-wrapp {
+    flex: 1 1 45%;
+    margin-left: 5%;
+}
+.cww-skill-section .left-wrapp {
+    flex: 1 1 45%;
+}
+
+.cww-skill-section .cww-pbar-wrapp {
+    margin: 55px 0;
+    position: relative;
+}
+
+ .cww-skill-section .progressBar {
+    width: 100%;
+    background:#fff;
+    height:20px;
+    font-size: 0;
+}
+.cww-skill-section .progressBar > div{
+    height: 20px;
+    background: var(--theme-color);
+    width: 0;
+}
+.cww-skill-section .percent-bar{
+    position: absolute;
+    top: -23px;
+    right: 0;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 29px;
+    white-space: nowrap;
+}
+.cww-skill-section .pbar-title {
+    position: absolute;
+    color: #fff;
+    left: 10px;
+    top: 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+.cww-skill-section .bar-circular-wrapp {
+    flex: 1 1 45%;
+    position: relative;
+    text-align: center;
+   
+}
+.cww-skill-section .title-bar {
+    position: absolute;
+    bottom: 0;
+    left: 130px;
+    transform: translate(-50%,-50%);
+}
+
+section.cww-main-banner .content-wrapp.moving-enabled {
+    position: relative;
+    margin-right: 55px;
+}
+section.cww-main-banner .content-wrapp.moving-enabled h2{
+    font-size: 48px;
+     position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    width: 460px;
+}
+section.cww-main-banner .content-wrapp.moving-enabled .down-text-wrapp {
+    margin-top: 85px;
+}
+
+/* ========= Portfolio ================ */
+.cww-portfolio-section{
+    margin-bottom: 0 !important;
+}
+.cww-portfolio-section .inner-pfolio {
+    flex: 1 1 30.33%;
+    padding: 20px;
+}
+
+.cww-portfolio-section .content-wrapp h3 {
+    margin: 0;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: var(--dark-color);
+}
+.cww-portfolio-section .pfolio-cat span,
+.portfolio .pfolio-cat span{
+    position: relative;
+    color: #666;
+}
+.cww-portfolio-section .pfolio-cat span:after,
+.portfolio .pfolio-cat span:after {
+    content: "/";
+    padding: 0 5px;
+}
+.cww-portfolio-section .pfolio-cat span:last-child:after,
+.portfolio .pfolio-cat span:last-child:after{
+    content: none;
+}
+
+.cww-portfolio-section .inner-pfolio a{
+    overflow: hidden;
+    display: block;
+}
+.cww-portfolio-section .inner-pfolio a:hover img {
+    -webkit-transform: scale(1.05) rotate(-.5deg);
+    -moz-transform: scale(1.05) rotate(-.5deg);
+    -ms-transform: scale(1.05) rotate(-.5deg);
+    -o-transform: scale(1.05) rotate(-.5deg);
+    transform: scale(1.05) rotate(-.5deg);
+}
+.cww-portfolio-section .inner-pfolio a img {
+    display: block;
+    line-height: 1;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+.cww-portfolio-section .content-wrapp {
+    margin: 15px 0;
+}
+
+
+/* Button Style*/
+.portfolio .btn-view a{
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    background-color: var(--theme-color);
+    color: #fff;
+    padding: 12px 30px;
+    text-align: center;
+}
+.portfolio .btn-view a:hover{
+    color: #FFF;
+}
+.portfolio .btn-view a:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: #333;
+    -webkit-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+}
+.portfolio .btn-view a:hover:before{
+    width: 100%;
+}
+.portfolio .btn-view a span{
+    position: relative;
+}
+.site-main.portfolio{
+    padding: 120px 0;
+}
+.portfolio .left-wrapp,
+.portfolio .right-wrapp {
+    flex: 1 1 50%;
+}
+.portfolio .right-wrapp {
+    padding-left: 45px;
+}
+.portfolio .right-wrapp h3{
+    margin: 0;
+}
+.portfolio .right-wrapp p {
+    color: #666;
+}
+.portfolio ul.meta-info {
+    margin: 20px 0;
+    padding: 0;
+}
+.portfolio ul.meta-info li{
+    list-style: none;s
+}
+.portfolio span.title {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-right: 15px;
+}
+
+section.cww-main-banner .content-wrapp.moving-enabled.uportfolio h2{
+    position: static;
+}

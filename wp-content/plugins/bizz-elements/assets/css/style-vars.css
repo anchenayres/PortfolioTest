@@ -1,0 +1,14 @@
+:root {
+	--body-font-family: 'Lora', serif;
+    --theme-color: #f28525;
+	--color-night-dark: #323648;
+    --color-dark-light: #555;
+    --color-white: #fff;
+	--font-size: 16px;
+	--font-size-sm: 14px;
+	--font-size-md: 18px;
+	--font-weight-bold: 600;
+}
+:root{
+	--font-family-secondary: "Josefin Sans",Arial, Helvetica, sans-serif;
+}

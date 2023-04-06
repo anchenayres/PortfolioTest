@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px){
+	.cww-skill-section .left-wrapp,
+	.cww-skill-section .right-wrapp {
+    	flex: 1 1 50%;
+	}
+	body.dark-mode section.cww-main-banner .content-wrapp {
+    	background: rgb(0 0 0 / 68%);
+    }
+	section.cww-main-banner .content-wrapp.moving-enabled h2 {
+	    top: 80px;
+	    left: 25px;
+    }
+    section.cww-main-banner .content-wrapp.moving-enabled{
+    	margin: 0;
+    }
+}
+
+@media only screen and (max-width: 630px){
+	section.cww-main-banner .content-wrapp.moving-enabled h2 {
+		font-size: 38px;
+	}
+	.cww-portfolio-section .inner-pfolio{
+		flex: 1 1 100%;
+	}
+}

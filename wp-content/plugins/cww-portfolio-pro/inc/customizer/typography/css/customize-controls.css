@@ -1,0 +1,97 @@
+.customize-control-typography li select {
+	width: 90%;
+}
+
+.customize-control-typography li.typography-font-weight,
+.customize-control-typography li.typography-font-size {
+	clear: both;
+}
+.customize-control-typography li.typography-font-size input,
+.customize-control-typography li.typography-line-height input {
+	width: 75px;
+}
+
+.slider-range-line-height,
+.slider-range-size{
+	width: 90%;
+}
+.p_data_reset a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+.p_data_reset {
+	float: right;
+    background: #d41313;
+    width: 51px;
+    border: 2px solid #af0d0d;
+    text-align: center;
+}
+
+/**
+* Other customizer styles
+*/
+.customize-control-button .button-primary {
+    background: #f75555;
+    border-color: #ff5d5d;
+    text-shadow: 1px 3px 9px rgba(245, 171, 171, 0.5);
+    -webkit-box-shadow: 1px 3px 9px rgba(245, 171, 171, 0.5);
+            box-shadow: 1px 3px 9px rgba(245, 171, 171, 0.5);
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+}
+/*#accordion-panel-typography{
+    background-image: url(../../../../assets/layouts.png) !important;
+    background-repeat: no-repeat;
+    background-size: auto !important;
+    margin-top: -5px !important;
+    width: 60px !important;
+    height: 45px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#accordion-panel-typography {
+    background-position: 1px 8px !important;
+}*/
+
+
+.customize-pane-parent .control-section .accordion-section-title:before {
+     font-family: dashicons;
+     content: " ";
+     font-size: 20px;
+     margin-right: 5px;
+     vertical-align: middle;
+ }
+li#accordion-panel-typography .accordion-section-title:before{
+     content: "\f210";
+ }
+li#accordion-section-cww_portfolio_pro_social_icons_section .accordion-section-title:before{
+     content: "\f237";
+ }
+li#accordion-panel-general_settings .accordion-section-title:before{
+     content: "\f107";
+ }
+ li#accordion-panel-cww_portfolio_pro_header_options_panel .accordion-section-title:before{
+     content: "\f228";
+ }
+li#accordion-section-cww_portfolio_pro_footer_settings .accordion-section-title:before{
+     content: "\f333";
+ }
+li#accordion-section-cww_portfolio_pro_maintenance_mode .accordion-section-title:before{
+     content: "\f469";
+ }
+li#accordion-section-cww_portfolio_pro_scroll_to_top .accordion-section-title:before{
+    content: "\f342";
+ }
+
+li#accordion-section-cww_portfolio_pro_404_redirection .accordion-section-title:before{
+    content: "\f105";
+ }
+
+ li#accordion-section-cww_portfolio_pro_cookie_notices .accordion-section-title:before{
+    content: "\f311";
+ }

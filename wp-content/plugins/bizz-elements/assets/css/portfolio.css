@@ -1,0 +1,195 @@
+.cww-grid{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.cww-portfolio .inner-wrapp {
+    position: relative;
+}
+
+.cww-portfolio.style-1 .inner-wrapp:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+       -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+         -o-transition: all 0.5s;
+            transition: all 0.5s;
+    border-radius: 0;
+    background-color: rgba(65, 65, 65, 0.65);
+}
+.cww-portfolio.style-1 .inner-wrapp:hover:after,
+.cww-portfolio.style-1 .inner-wrapp:hover .content-wrappp,
+.cww-portfolio.style-1 .inner-wrapp:hover .content-sep {
+    opacity: 1;
+}
+.cww-portfolio ul.meta {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cww-portfolio ul.meta li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.cww-portfolio h4.pfolio-title {
+    margin: 0;
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 400;
+    
+}
+
+.cww-portfolio.style-1 .content-wrappp {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    opacity: 0;
+    z-index: 9;
+}
+.cww-portfolio.style-1 .content-wrappp a:visited,
+.cww-portfolio.style-1 .content-wrappp a{
+    color: #FFF;
+}
+.cww-portfolio .content-wrappp a:visited,
+.cww-portfolio .content-wrappp a{
+    color: #333;
+}
+
+.cww-portfolio .content-wrappp ul.meta li a:visited,
+.cww-portfolio .content-wrappp ul.meta li a,
+.cww-portfolio .content-wrappp a:hover,
+.cww-portfolio ul.meta li .delimiter-comma  {
+    color: #e7e4e4;
+}
+
+.cww-portfolio.style-1 .content-sep {
+    display: block;
+    height: 1px;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    -webkit-transition: all .45s ease;
+       -moz-transition: all .45s ease;
+        -ms-transition: all .45s ease;
+         -o-transition: all .45s ease;
+            transition: all .45s ease;
+    background: #e7e4e4;
+    width: 0;
+    top: 110px;
+    opacity: 0;
+     z-index: 9;
+}
+.cww-portfolio.style-1 .inner-wrapp:hover .content-sep{
+    width: 60%;
+}
+
+.cww-portfolio ul.meta li:last-child .delimiter-comma {
+    display: none;
+}
+
+.cww-portfolio.style-2 .content-wrappp {
+    background: #fff;
+    text-align: center;
+    padding: 25px 0;
+    position: absolute;
+    bottom: 0;
+    left: 35px;
+    width: calc(100% - 70px);
+     -webkit-box-shadow: 1px 5px 8px 0px rgba(0,0,0,0.1);
+            box-shadow: 1px 5px 8px 0px rgba(0,0,0,0.1);
+    -webkit-transition: all 0.3s ease-out;
+       -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+         -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+}
+.cww-portfolio.style-2 .inner-wrapp:hover .content-wrappp{
+    bottom: 50px;
+}
+.cww-portfolio.style-2 .inner-wrapp{
+    padding-bottom: 55px;
+}
+
+.cww-portfolio.style-2 .content-wrappp ul.meta li a:visited,
+.cww-portfolio.style-2 .content-wrappp ul.meta li a, 
+.cww-portfolio.style-2 .content-wrappp a:hover{
+        color: #a3a2a2;
+}
+
+
+.cww-portfolio .img-wrapp a{
+    display: block;
+    overflow: hidden;
+    line-height: 1;
+}
+.cww-portfolio .img-wrapp a img{
+    display: block;
+    line-height: 1;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+
+.cww-portfolio .img-wrapp a:hover img {
+    -webkit-transform: scale(1.05) rotate( -.5deg);
+    -moz-transform: scale(1.05) rotate(-.5deg);
+    -ms-transform: scale(1.05) rotate(-.5deg);
+    -o-transform: scale(1.05) rotate(-.5deg);
+    transform: scale(1.05) rotate( -.5deg);
+}
+.cww-portfolio .inner-wrapp {
+    margin-right: 3%;
+    margin-top: 3%;
+    width: 30.33%;
+}
+.cww-portfolio .inner-wrapp:first-child{
+    margin-left: 0;
+}
+/* Portfolio Filters */
+.portfolio-filter-wrapp .filter {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.portfolio-filter-wrapp .filter.active{
+    color: var(--theme-color);
+}
+.cww-portfolio-filter.left .portfolio-filter-wrapp{
+    text-align: left;
+}
+.cww-portfolio-filter.right .portfolio-filter-wrapp{
+    text-align: right;
+}
+.cww-portfolio-filter.center .portfolio-filter-wrapp{
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px){
+    .cww-portfolio .inner-wrapp{
+        width: 47%;
+    }
+}
+@media only screen and (max-width: 320px){
+    .cww-portfolio .inner-wrapp{
+        width: 100%;
+        margin-left: 0;
+    }
+}

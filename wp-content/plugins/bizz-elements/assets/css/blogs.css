@@ -1,0 +1,82 @@
+.code-wrapp.blogs .blog-outer-wrapp {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 33.33%;
+    flex: 1 1 33.33%;
+    padding: 0 20px;
+    font-family: 'Jost', sans-serif;
+}
+.code-wrapp.blogs .blog-inner-wrapp {
+    border: 1px solid rgba(17,32,77,0.15);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+}
+.code-wrapp.blogs .img-wrapp {
+    margin-top: -50px;
+}
+ .code-wrapp.blogs .img-wrapp a.post-thumbnail {
+    display: block;
+    overflow: hidden;
+    line-height: 1;
+}
+ .code-wrapp.blogs .img-wrapp a.post-thumbnail img {
+    display: block;
+    line-height: 1;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -ms-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+}
+.code-wrapp.blogs .blog-inner-wrapp img {
+    border-radius: 10px;
+}
+ .code-wrapp.blogs .img-wrapp a.post-thumbnail:hover img {
+    -webkit-transform: scale(1.05) rotate(
+-.5deg);
+    -moz-transform: scale(1.05) rotate(-.5deg);
+    -ms-transform: scale(1.05) rotate(-.5deg);
+    -o-transform: scale(1.05) rotate(-.5deg);
+    transform: scale(1.05) rotate(
+-.5deg);
+}
+.code-wrapp.blogs .post-content {
+    padding: 30px;
+}
+.code-wrapp.blogs .post-content h3 a {
+    text-decoration: none;
+    color: #11204d;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.code-wrapp.blogs .read-more-link a {
+    text-decoration: none;
+    position: relative;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 5px 0;
+    color: var(--theme-color);
+}
+.code-wrapp.blogs .read-more-link a:before {
+    content: "";
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--theme-color);
+    -webkit-transition: width 0.3s;
+    -o-transition: width 0.3s;
+    transition: width 0.3s;
+}
+.code-wrapp.blogs .read-more-link a:hover:before {
+    width: 50%;
+}
+.code-wrapp.blogs .post-meta {
+    text-transform: capitalize;
+}
+.code-wrapp.blogs .post-content p{
+    font-size: 16px;
+    font-weight: 400;
+}

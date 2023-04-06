@@ -1,0 +1,27 @@
+.dark-mode-switch {
+    position: fixed;
+    bottom: 150px;
+    right: 15px;
+    background-color: #333;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    z-index: 9999999;
+}
+.dark-mode-switch:hover{
+    cursor: pointer;
+}
+.dark-mode-switch .light{
+    display: none;
+}
+.dark-mode-switch img {
+    height: 25px;
+    width: 25px;
+}
+.dark-mode-switch.bottom-left {
+    left: 15px;
+    bottom: 20px;
+}

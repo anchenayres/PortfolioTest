@@ -1,0 +1,98 @@
+.cww-teams.style-1 .inner-wrapp{
+    position: relative;
+    padding-bottom: 50px;
+}
+.cww-teams .inner-wrapp{
+    width: 30%;
+}
+.cww-teams.style-1 .content-wrappp {
+    text-align: center;
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    left: 50px;
+    -webkit-box-shadow: 1px 5px 8px 0px rgba(0,0,0,0.1);
+            box-shadow: 1px 5px 8px 0px rgba(0,0,0,0.1);
+}
+.cww-teams .content-wrappp h4 {
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 500;
+    margin: 0;
+}
+.cww-teams .content-wrappp a {
+    color: #333;
+}
+.cww-teams .content-wrappp a:hover{
+    color: #666;
+}
+
+.cww-teams .designation {
+    color: #666;
+    font-size: 14px;
+}
+.cww-teams .social-profiles {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in;
+       -moz-transition: all 0.3s ease-in;
+        -ms-transition: all 0.3s ease-in;
+         -o-transition: all 0.3s ease-in;
+            transition: all 0.3s ease-in;
+}
+.cww-teams .inner-wrapp:hover .social-profiles{
+    opacity: 1;
+    visibility: visible;
+    left: 20px;
+}
+.cww-teams .inner-wrapp:hover .img-wrapp img{
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
+}
+.cww-teams .inner-wrapp:hover .img-wrapp img{
+    filter: grayscale(100%);
+}
+.cww-teams .social-profiles a,
+.cww-teams .social-profiles a:visited {
+    color: #fff;
+    display: block;
+}
+
+.cww-teams .social-profiles a  {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 2.5;
+    margin-bottom: 10px;
+   
+}
+
+
+.cww-teams .social-profiles a.icon-fb{
+    background: rgb(59, 89, 152);
+}
+
+.cww-teams .social-profiles a.icon-tw {
+    background: rgb(29, 161, 242);
+}
+
+.cww-teams .social-profiles a.icon-yt {
+    background: rgb(238, 64, 86);
+}
+
+.cww-teams .social-profiles a.icon-ln {
+    background: rgb(0, 119, 181);
+}
+
+.cww-teams .social-profiles a.icon-insta {
+    background: #f46f30;
+}

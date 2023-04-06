@@ -1,0 +1,16 @@
+.aea-round-images .img-wrapp img{
+    -webkit-border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+            border-radius: 50% 50% 50% 50%/60% 60% 40% 40%;
+    -webkit-box-shadow: 0 25px 98px 0 rgba(0,0,0,.1);
+            box-shadow: 0 25px 98px 0 rgba(0,0,0,.1);
+        -webkit-transition: all 0.3s;
+           -moz-transition: all 0.3s;
+            -ms-transition: all 0.3s;
+             -o-transition: all 0.3s;
+                transition: all 0.3s;
+
+}
+.aea-round-images .img-wrapp img:hover{
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+}

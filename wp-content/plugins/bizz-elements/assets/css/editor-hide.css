@@ -1,0 +1,5 @@
+div#elementor-panel-category-pro-elements,
+div#elementor-panel-category-woocommerce-elements,
+div#elementor-panel-category-theme-elements {
+    display: none !important;
+}
